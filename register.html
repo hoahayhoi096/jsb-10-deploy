@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Sedgwick+Ave|Ubuntu:700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- initial scripts needed to run bootstrap  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./css/auth.css">
+
+</head>
+
+<body>
+
+    <div class="auth-container">
+
+        <div class="box rounded-md">
+            <div class="logo text-center">
+                <img src="https://marketingai.mediacdn.vn/wp-content/uploads/2018/06/Sb-min-2-370x370.jpg" alt="logo">
+            </div>
+
+            <h4 class="text-center py-3 text-primary">Đăng ký</h4>
+
+            <form action="" id="register-form">
+                <div class="form-group d-flex align-items-center rounded-sm mb-4">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" class="form-control inp-username" placeholder="Name">
+                </div>
+
+                <div class="form-group d-flex align-items-center rounded-sm mb-4">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" class="form-control inp-email" placeholder="Email">
+                </div>
+
+                <div class="form-group d-flex align-items-center rounded-sm mb-4">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" class="form-control inp-pwd" placeholder="Password">
+                </div>
+
+                <div class="form-group d-flex align-items-center rounded-sm mb-4">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" class="form-control inp-cf-pw" placeholder="Confirm password">
+                </div>
+                
+                <div class="">
+                    <button type="submit" class="form-control btn btn-primary">Đăng ký</button>
+                    <p class="text-center mt-4">
+                        <span>Đã có tài khoản?</span>
+                        <a href="./login.html" class="ms-1">Đăng nhập</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    <script src="./js/register.js">
+        
+    </script>
+</body>
+
+</html>
