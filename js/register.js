@@ -30,5 +30,5 @@ document.getElementById("register-form").addEventListener("submit", function(e) 
     localStorage.setItem("users", JSON.stringify(users));
 
     alert("Đăng ký thành công! Hãy đăng nhập.");
-    window.location.href = "./login.js";
+    window.location.href = "./login.html";
 });
