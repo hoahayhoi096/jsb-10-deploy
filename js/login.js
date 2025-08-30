@@ -12,7 +12,9 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
     if (foundUser) {
         localStorage.setItem("loggedInUser", JSON.stringify(foundUser));
         alert("Đăng nhập thành công!");
-        window.location.href = "./index.html"; // Trang sau khi đăng nhập
+        
+        const homeUrl = new URL('index.html', window.location.href).href;
+        window.location.replace(homeUrl);
     } else {
         alert("Sai email hoặc mật khẩu");
     }
